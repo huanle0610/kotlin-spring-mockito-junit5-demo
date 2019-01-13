@@ -48,7 +48,7 @@ idea {
     module {
         inheritOutputDirs = false
         outputDir = file("$buildDir/classes/kotlin/main")
-        testOutputDir = file("$buildDir/classes/java/test")
+        testOutputDir = file("$buildDir/classes/kotlin/test")
     }
 }
 
